@@ -8,7 +8,7 @@ from app.utils import load_dataset
 
 
 # Load dataset
-documents = load_dataset()
+documents = load_dataset()[:2000]
 print("Loading dataset completed")
 
 # Create embeddings for all documents
